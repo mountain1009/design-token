@@ -1,13 +1,9 @@
 <template>
-  <p class="p-text">aa</p>
+  <p class="p-text">{{ hoge }}</p>
 </template>
 
-<script lang="ts">
-import { defineComponent } from '@nuxtjs/composition-api'
-export default defineComponent({
-  components: {},
-  setup() {},
-})
+<script setup lang="ts">
+const hoge = ref('hogehoge')
 </script>
 
 <style lang="scss">
