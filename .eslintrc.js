@@ -11,7 +11,8 @@ module.exports = {
   ],
   plugins: [
     "import",
-    "unused-imports"
+    "unused-imports",
+    "json-format"
   ],
   // add your custom rules here
   rules: {

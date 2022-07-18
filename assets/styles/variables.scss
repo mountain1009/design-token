@@ -1,0 +1,13 @@
+// Do not edit directly
+// Generated on Sun, 17 Jul 2022 15:58:19 GMT
+
+$global-primary: #217d00;
+$global-brand: 40px;
+$global-base: Noto Sans JP;
+
+@mixin center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 0);
+}

@@ -1,14 +1,19 @@
 <template>
-  <p>aa</p>
+  <p class="p-text">aa</p>
 </template>
 
 <script lang="ts">
-import { defineComponent, SetupContext } from "@nuxtjs/composition-api";
+import { defineComponent } from '@nuxtjs/composition-api'
 export default defineComponent({
-  components:{},
-  setup(){
-  }
+  components: {},
+  setup() {},
 })
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss">
+.p-text {
+  @include center;
+  color: $global-primary;
+  font-size: $global-brand;
+}
+</style>
